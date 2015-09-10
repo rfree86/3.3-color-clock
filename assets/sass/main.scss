@@ -1,0 +1,25 @@
+@import '../../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+body{
+  text-align: center;
+}
+
+.clock{
+  font-size: 300%;
+  position: relative;
+  top: 25%;
+  color: white;
+}
+hr{
+  height: 15px;
+  background-color: white;
+}
+.js-hexbox{
+  display: none;
+}
+.clock:hover .js-clockbox  {
+  display: none;
+}
+.clock:hover .js-hexbox{
+  display: block;
+}
